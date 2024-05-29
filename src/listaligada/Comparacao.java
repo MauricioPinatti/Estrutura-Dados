@@ -1,4 +1,4 @@
-package listaLigada;
+package listaligada;
 
 import java.util.ArrayList;
 

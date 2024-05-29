@@ -1,4 +1,4 @@
-package listaLigada;
+package listaligada;
 
 public class ProgramaInteiros {
 
