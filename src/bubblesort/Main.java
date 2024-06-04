@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int [] vetor = new int[100000];
 
+        // preenchimento vetor.
         for(int i = 0; i < vetor.length; i++){
             vetor[i] = (int) (Math.random() * vetor.length);
             //System.out.println(vetor[i]);

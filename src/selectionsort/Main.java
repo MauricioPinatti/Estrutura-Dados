@@ -1,9 +1,9 @@
-package insertionsort;
+package selectionsort;
 
 public class Main {
 
     /*
-        INSERTION SORT - Complexidade O(N^2) quadrado
+        SELECTION SORT - Complexidade O(N^2) quadrado
         i não precisa iniciar no 0, pois vamos testar o segundo com o primeiro
         sempre testamos com as posições anteriores do vetor  comparando com o valor em aux
     */
@@ -17,6 +17,7 @@ public class Main {
             vetor[i] = (int) (Math.random() * vetor.length);
             System.out.println(vetor[i]);
         }
+
 
         int aux, j;
         for(int i = 1; i < vetor.length; i++){
